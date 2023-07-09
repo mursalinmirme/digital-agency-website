@@ -305,6 +305,45 @@ body{
     color: #4C4848;
 }
 
+/* footer section styles code start */
+.footer{
+    background-image: url('../image/footer-bg.png'),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+}
+.footer-container{
+    width: 75%;
+    height: 60vh;
+    margin: auto;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #F0F0F0;
+}
+.footer-container .footer-logo-box{
+    width: 25%;
+}
+.copyright-title{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+
+
+
+
+/* footer section styles code end */
+
+
+
+
+
+
+
 
 
 /* blog section styles code end */
