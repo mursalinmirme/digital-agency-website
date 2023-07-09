@@ -5,10 +5,22 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+/* some shortcut classes below */
+.primary-color{
+    color: rgb(255, 0, 0);
+}
+.btn-primary{
+    padding: 15px 35px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    
+}
 /* header styles code start */
 .header .navbar{
-    background-color: #e1e1e1;
-    padding: 20px;
+    background-color: rgba(172, 166, 166, 0.5);
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,6 +32,7 @@ body{
 .header .navbar .nav-logo h1{
     color: #00FFFF;
     font-size: 18px;
+
 }
 .header .navbar .nav-logo img{
     width: 200px;
@@ -51,7 +64,31 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-
-
+.banner-section .banner-desc {
+    text-align: center;
+}
+.banner-section .banner-desc h1{
+    font-size: 86px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+.banner-section .banner-desc p{
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    width: 55%;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.banner-section .banner-desc button{
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.banner-section .banner-desc .custom-btn{
+    background-color: #F0F0F0;
+    color: #000000;
+}
 
