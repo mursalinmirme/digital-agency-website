@@ -257,7 +257,57 @@ body{
 }
 /* appoinment section styles code end */
 
+/* blog section styles code start */
+.blog-section{
 
+}
+.blog-section .blog-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+}
+.blog-section .blog-descipt{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.blog-box{
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.blog-box .blog{
+    width: 350px;
+    height: 430px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.blog-box .blog .blog-img{
+    width: 350px;
+    padding-bottom: 10px;
+}
+
+.blog-box .blog .blog-info{
+    padding: 15px;
+}
+.blog-box .blog .blog-info h3{
+    font-size: 24px;
+    color: #363535;
+}
+.blog-box .blog .blog-info p{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #4C4848;
+}
+
+
+
+/* blog section styles code end */
 
 
 
